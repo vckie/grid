@@ -1,0 +1,290 @@
+[
+    {
+        "title": "vkie.pro",
+        "description": "My main stack",
+        "icon": "globe",
+        "items": [
+            {
+                "domain": "www.vkie.pro",
+                "description": "Cybersecurity blog site",
+                "icon": "post",
+                "tags": [
+                    "Blog",
+                    "Content",
+                    "Writing"
+                ]
+            },
+            {
+                "domain": "portfolio.vkie.pro",
+                "description": "Project portfolio site",
+                "icon": "briefcase",
+                "tags": [
+                    "Portfolio",
+                    "Career",
+                    "Showcase"
+                ]
+            },
+            {
+                "domain": "intel.vkie.pro",
+                "description": "Threat research portal",
+                "icon": "radar",
+                "tags": [
+                    "Intel",
+                    "Research",
+                    "OSINT"
+                ]
+            },
+            {
+                "domain": "cti.vkie.pro",
+                "description": "Threat intel platform",
+                "icon": "shield-search",
+                "tags": [
+                    "CTI",
+                    "Security",
+                    "OpenCTI"
+                ]
+            },
+            {
+                "domain": "dash.vkie.pro",
+                "description": "Grafana metrics dashboards",
+                "icon": "chart-line",
+                "tags": [
+                    "Monitoring",
+                    "Grafana",
+                    "Observability"
+                ]
+            },
+            {
+                "domain": "do.vkie.pro",
+                "description": "n8n automation engine",
+                "icon": "workflow",
+                "tags": [
+                    "SOAR",
+                    "n8n",
+                    "Automation"
+                ]
+            },
+            {
+                "domain": "lab.vkie.pro",
+                "description": "Portainer lab console",
+                "icon": "docker",
+                "tags": [
+                    "Docker",
+                    "Portainer",
+                    "Infrastructure"
+                ]
+            },
+            {
+                "domain": "neo.vkie.pro",
+                "description": "Neo4j graph database",
+                "icon": "graph",
+                "tags": [
+                    "Neo4j",
+                    "Graph",
+                    "Database"
+                ]
+            },
+            {
+                "domain": "shuffle.vkie.pro",
+                "description": "Shuffle SOAR platform",
+                "icon": "shuffle",
+                "tags": [
+                    "SOAR",
+                    "Shuffle",
+                    "IR"
+                ]
+            },
+            {
+                "domain": "unc.vkie.pro",
+                "description": "Sigma rule translator",
+                "icon": "code-braces",
+                "tags": [
+                    "Sigma",
+                    "Detection",
+                    "Uncoder"
+                ]
+            },
+            {
+                "domain": "auth.vkie.pro",
+                "description": "Auth0 identity access",
+                "icon": "account-key",
+                "tags": [
+                    "IAM",
+                    "Auth0",
+                    "Authentication"
+                ]
+            },
+            {
+                "domain": "cdn.vkie.pro",
+                "description": "Cloudflare R2 storage",
+                "icon": "cloud",
+                "tags": [
+                    "Cloudflare",
+                    "R2",
+                    "Storage"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Cloud",
+        "description": "Servers & hosting",
+        "icon": "cloud",
+        "items": [
+            {
+                "domain": "console.cloud.google.com",
+                "description": "GCP cloud console",
+                "icon": "cloud",
+                "tags": [
+                    "GCP",
+                    "Compute",
+                    "Networking"
+                ]
+            },
+            {
+                "domain": "console.aws.amazon.com",
+                "description": "AWS cloud console",
+                "icon": "cloud",
+                "tags": [
+                    "AWS",
+                    "Compute",
+                    "Security"
+                ]
+            },
+            {
+                "domain": "portal.azure.com",
+                "description": "Azure cloud portal",
+                "icon": "cloud",
+                "tags": [
+                    "Azure",
+                    "Compute",
+                    "Identity"
+                ]
+            },
+            {
+                "domain": "hpanel.hostinger.com",
+                "description": "Hostinger control panel",
+                "icon": "server",
+                "tags": [
+                    "Hostinger",
+                    "VPS",
+                    "Hosting"
+                ]
+            },
+            {
+                "domain": "cloud.digitalocean.com",
+                "description": "DigitalOcean cloud panel",
+                "icon": "server",
+                "tags": [
+                    "DigitalOcean",
+                    "Droplets",
+                    "Networking"
+                ]
+            },
+            {
+                "domain": "dash.cloudflare.com",
+                "description": "Cloudflare control panel",
+                "icon": "cloud",
+                "tags": [
+                    "Cloudflare",
+                    "DNS",
+                    "WAF"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "AI",
+        "description": "LLMs & tooling",
+        "icon": "sparkles",
+        "items": [
+            {
+                "domain": "chat.openai.com",
+                "description": "ChatGPT web app",
+                "icon": "sparkles",
+                "tags": [
+                    "OpenAI",
+                    "ChatGPT",
+                    "LLM"
+                ]
+            },
+            {
+                "domain": "platform.openai.com",
+                "description": "OpenAI API console",
+                "icon": "key",
+                "tags": [
+                    "OpenAI",
+                    "API",
+                    "Keys"
+                ]
+            },
+            {
+                "domain": "huggingface.co",
+                "description": "Models dataset hub",
+                "icon": "cube",
+                "tags": [
+                    "HuggingFace",
+                    "Models",
+                    "Datasets"
+                ]
+            },
+            {
+                "domain": "ollama.com",
+                "description": "Local LLM runtime",
+                "icon": "cpu",
+                "tags": [
+                    "Ollama",
+                    "LocalAI",
+                    "Models"
+                ]
+            },
+            {
+                "domain": "langchain.com",
+                "description": "Agent framework site",
+                "icon": "link",
+                "tags": [
+                    "LangChain",
+                    "Agents",
+                    "RAG"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Etc",
+        "description": "Tools & accounts",
+        "icon": "grid",
+        "items": [
+            {
+                "domain": "github.com",
+                "description": "Code repo hosting",
+                "icon": "github",
+                "tags": [
+                    "GitHub",
+                    "Code",
+                    "Projects"
+                ]
+            },
+            {
+                "domain": "vercel.com",
+                "description": "Frontend hosting platform",
+                "icon": "rocket",
+                "tags": [
+                    "Vercel",
+                    "Deploy",
+                    "Web"
+                ]
+            },
+            {
+                "domain": "proton.me",
+                "description": "Secure email suite",
+                "icon": "mail",
+                "tags": [
+                    "Proton",
+                    "Mail",
+                    "Security"
+                ]
+            }
+        ]
+    }
+]

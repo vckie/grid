@@ -17,7 +17,7 @@
             {
                 "domain": "portfolio.vkie.pro",
                 "description": "Project portfolio site",
-                "icon": "briefcase",
+                "icon": "https://cdn.vkie.pro/cv.png",
                 "tags": [
                     "Portfolio",
                     "Career",
@@ -27,7 +27,7 @@
             {
                 "domain": "intel.vkie.pro",
                 "description": "Threat research portal",
-                "icon": "radar",
+                "icon": "https://cdn.vkie.pro/intelli.png",
                 "tags": [
                     "Intel",
                     "Research",
@@ -47,7 +47,7 @@
             {
                 "domain": "dash.vkie.pro",
                 "description": "Grafana metrics dashboards",
-                "icon": "chart-line",
+                "icon": "https://cdn.brandfetch.io/idkp6BI9fv/theme/dark/symbol.svg?c=1bxid64Mup7aczewSAYMX&t=1698088248662",
                 "tags": [
                     "Monitoring",
                     "Grafana",
@@ -57,7 +57,7 @@
             {
                 "domain": "do.vkie.pro",
                 "description": "n8n automation engine",
-                "icon": "workflow",
+                "icon": "https://cdn.brandfetch.io/idO6_6uqJ9/theme/dark/symbol.svg?c=1bxid64Mup7aczewSAYMX&t=1763457415601",
                 "tags": [
                     "SOAR",
                     "n8n",
@@ -67,7 +67,7 @@
             {
                 "domain": "lab.vkie.pro",
                 "description": "Portainer lab console",
-                "icon": "docker",
+                "icon": "https://cdn.brandfetch.io/id2t6-xYmL/w/100/h/100/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1757831909053",
                 "tags": [
                     "Docker",
                     "Portainer",
@@ -97,7 +97,7 @@
             {
                 "domain": "unc.vkie.pro",
                 "description": "Sigma rule translator",
-                "icon": "code-braces",
+                "icon": "https://cdn.brandfetch.io/idOpkA_pMV/theme/dark/logo.svg?c=1bxid64Mup7aczewSAYMX&t=1759753040297",
                 "tags": [
                     "Sigma",
                     "Detection",
@@ -117,7 +117,7 @@
             {
                 "domain": "cdn.vkie.pro",
                 "description": "Cloudflare R2 storage",
-                "icon": "cloud",
+                "icon": "https://cdn.brandfetch.io/idJ3Cg8ymG/idASSo3XVu.svg?c=1bxid64Mup7aczewSAYMX&t=1646237667530",
                 "tags": [
                     "Cloudflare",
                     "R2",
@@ -134,7 +134,7 @@
             {
                 "domain": "console.cloud.google.com",
                 "description": "GCP cloud console",
-                "icon": "cloud",
+                "icon": "https://cdn.brandfetch.io/id6O2oGzv-/w/800/h/253/theme/dark/logo.png?c=1bxid64Mup7aczewSAYMX&t=1731911497387",
                 "tags": [
                     "GCP",
                     "Compute",
@@ -144,7 +144,7 @@
             {
                 "domain": "console.aws.amazon.com",
                 "description": "AWS cloud console",
-                "icon": "cloud",
+                "icon": "https://cdn.brandfetch.io/idVoqFQ-78/theme/light/logo.svg?c=1bxid64Mup7aczewSAYMX&t=1758604183041",
                 "tags": [
                     "AWS",
                     "Compute",
@@ -154,7 +154,7 @@
             {
                 "domain": "portal.azure.com",
                 "description": "Azure cloud portal",
-                "icon": "cloud",
+                "icon": "https://cdn.vkie.pro/Azure.png",
                 "tags": [
                     "Azure",
                     "Compute",
@@ -164,7 +164,7 @@
             {
                 "domain": "hpanel.hostinger.com",
                 "description": "Hostinger control panel",
-                "icon": "server",
+                "icon": "https://cdn.brandfetch.io/idc4D4ETwV/w/173/h/133/theme/dark/logo.png?c=1bxid64Mup7aczewSAYMX&t=1764454456285",
                 "tags": [
                     "Hostinger",
                     "VPS",
@@ -201,7 +201,7 @@
             {
                 "domain": "chat.openai.com",
                 "description": "ChatGPT web app",
-                "icon": "sparkles",
+                "icon": "https://cdn.brandfetch.io/idR3duQxYl/theme/light/symbol.svg?c=1bxid64Mup7aczewSAYMX&t=1749527480180",
                 "tags": [
                     "OpenAI",
                     "ChatGPT",
@@ -221,7 +221,7 @@
             {
                 "domain": "huggingface.co",
                 "description": "Models dataset hub",
-                "icon": "cube",
+                "icon": "https://cdn.brandfetch.io/idvwdVg7I7/theme/dark/logo.svg?c=1bxid64Mup7aczewSAYMX&t=1765374930556",
                 "tags": [
                     "HuggingFace",
                     "Models",
@@ -231,7 +231,7 @@
             {
                 "domain": "ollama.com",
                 "description": "Local LLM runtime",
-                "icon": "cpu",
+                "icon": "https://cdn.brandfetch.io/idrRDmZ2_F/w/180/h/180/theme/light/logo.png?c=1bxid64Mup7aczewSAYMX&t=1763661204250",
                 "tags": [
                     "Ollama",
                     "LocalAI",
@@ -258,7 +258,7 @@
             {
                 "domain": "github.com",
                 "description": "Code repo hosting",
-                "icon": "github",
+                "icon": "https://cdn.brandfetch.io/idZAyF9rlg/theme/light/symbol.svg?c=1bxid64Mup7aczewSAYMX&t=1719469980826",
                 "tags": [
                     "GitHub",
                     "Code",
@@ -268,7 +268,7 @@
             {
                 "domain": "vercel.com",
                 "description": "Frontend hosting platform",
-                "icon": "rocket",
+                "icon": "https://cdn.brandfetch.io/idDpCfN4VD/theme/light/logo.svg?c=1bxid64Mup7aczewSAYMX&t=1759982651358",
                 "tags": [
                     "Vercel",
                     "Deploy",
@@ -278,7 +278,7 @@
             {
                 "domain": "proton.me",
                 "description": "Secure email suite",
-                "icon": "mail",
+                "icon": "https://cdn.brandfetch.io/idG21jby45/theme/dark/idrjLwOMzB.svg?c=1bxid64Mup7aczewSAYMX&t=1715868266572",
                 "tags": [
                     "Proton",
                     "Mail",

@@ -1,73 +1,84 @@
-# React + TypeScript + Vite
+# Nexus Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A centralized, performant, and aesthetic dashboard for all your self-hosted services and external tools. Built with React, TypeScript, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **Dynamic Configuration**: Add or remove services simply by editing a JSON file.
+-   **Groups & Categories**: Organize your services into folders/groups.
+-   **Instant Search**: Filter through your services and tags in real-time.
+-   **Responsive Design**: Works perfectly on desktop, tablet, and mobile.
+-   **Performance**: Optimized with Vite and lightweight animations.
 
-## React Compiler
+## Installation & Running
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1.  **Clone the repository**:
+    ```bash
+    git clone <repository-url>
+    cd dashboard
+    ```
 
-## Expanding the ESLint configuration
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+3.  **Start the development server**:
+    ```bash
+    npm run dev
+    ```
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Configuration (Our Flow)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+To add, remove, or modify the links on your dashboard, you do **not** need to touch the React code. Everything is driven by the `public/list.json` file.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### How to Edit
+
+1.  Open `public/list.json`.
+2.  Add a new object to the array for a new item or group.
+
+### Schema Reference
+
+There are two types of entries: **Items** (direct links) and **Groups** (folders containing items).
+
+#### 1. Simple Item
+```json
+{
+  "title": "Service Name",
+  "description": "Brief description of the service",
+  "url": "https://service.local",
+  "icon": "cloud",
+  "tags": ["infrastructure", "local"]
+}
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+#### 2. Group (Folder)
+```json
+{
+  "title": "My Group",
+  "description": "Collection of related tools",
+  "icon": "briefcase",
+  "items": [
+    {
+      "title": "Tool Inside Group",
+      "description": "...",
+      "url": "...",
+      "icon": "code-braces"
+    }
+  ]
+}
 ```
+
+### Icons
+
+The dashboard supports:
+1.  **Mapped Icons**: `shield-search`, `chart-line`, `workflow`, `docker`, `graph`, `shuffle`, `code-braces`, `account-key`, `cloud`, `radar`, `briefcase`, `post`.
+2.  **Image URLs**: Provide a full URL (e.g., `https://example.com/icon.png`) or a local path (e.g., `/icons/my-icon.svg`) starting with `/` or `http`.
+
+## Tech Stack
+
+-   **Framework**: [React](https://react.dev/) + [Vite](https://vitejs.dev/)
+-   **Language**: [TypeScript](https://www.typescriptlang.org/)
+-   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+-   **Icons**: [Lucide React](https://lucide.dev/)
+-   **Animations**: [Framer Motion](https://www.framer.com/motion/)

@@ -196,7 +196,7 @@
     {
         "title": "AI",
         "description": "LLMs & tooling",
-        "icon": "sparkles",
+        "icon": "https://cdn.vkie.pro/ai.png",
         "items": [
             {
                 "domain": "chat.openai.com",
